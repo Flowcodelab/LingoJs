@@ -4,7 +4,8 @@
 
 # 🌐 LingoJs – Effortless Multilingual Support for Websites
 
-**LingoJs** is a developer-first translation management platform that makes it easy to add multilingual support to any website. With just one script tag, you can manage, translate, and deploy language versions of your site—without complex infrastructure or external translation services.
+**LingoJs** is a developer first translation management platform that makes it easy to add multilingual support to any website. With just one script tag, you can manage, translate, and deploy language versions of your site without complex infrastructure or external translation services.
+[LingoJs.com](https://lingojs.com)
 
 ## ✨ Why LingoJs?
 
