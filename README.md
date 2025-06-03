@@ -1,50 +1,65 @@
-# 🌍 LingoJs – Real-Time Website & App Translation Platform
+![LingoJs Logo](https://vetrx3zkmavopskp.public.blob.vercel-storage.com/lingojs-a5GTXEzkvIysXRWV5lkCbNstI0MoL9.png)
 
-**LingoJs** is a modern SaaS platform designed to make website and application localization effortless. With real-time translation, seamless integration, and powerful team features, LingoJs helps businesses create multilingual experiences without the technical overhead.
+# 🌐 LingoJs – Effortless Multilingual Support for Websites
 
-## 🚀 Key Features
+**LingoJs** is a developer-first translation management platform that makes it easy to add multilingual support to any website. With just one script tag, you can manage, translate, and deploy language versions of your site—without complex infrastructure or external translation services.
 
-* **Lightning-Fast Translation**
-  Response time as low as 26ms for an instant user experience.
-  ➤ [Try it on LingoJs.com](https://lingojs.com)
+## ✨ Why LingoJs?
 
-* **Easy Integration**
-  Add just one line of code to enable automatic translation on your site.
+* **No Backend Needed** – Just drop a script into your HTML and you're live.
+* **Full Control Over Translations** – Manage translations manually or collaboratively with your team.
+* **Flexible Language Switcher** – Auto-detect language or let users choose via a customizable widget.
+* **Developer-Oriented** – Built with simplicity and flexibility in mind, it works with any tech stack.
+* **Collaboration Tools** – Invite teammates to help manage language content across pages and projects.
+* **Analytics** – Track views, usage, and translation coverage from your dashboard.
 
-* **Auto Language Detection**
-  Automatically identifies and adapts content based on user language preferences.
+## 🚀 How It Works
 
-* **Intuitive Dashboard**
-  Manage all your translation projects from a sleek, user-friendly interface.
+1. **Add the LingoJs script** to your website.
+2. **Create and manage translations** from your dashboard.
+3. **Publish** and let visitors browse your content in their preferred language.
 
-* **Team Collaboration**
-  Invite your teammates and work together on multilingual content.
+No need to host multiple versions of your site or set up a complex i18n system.
 
-* **Customizable Language Switcher Widget**
-  Offer a language toggle UI that fits perfectly with your site’s design.
+## 🛠️ Example Integration
 
-* **Visibility Tracking**
-  Get insights into translation usage and global reach analytics.
+```html
+<Script
+        src="https://api.lingojs.com/static/js/translation-snippet.js"
+        onLoad={() => {
+          if (window.Lingojs && window.Lingojs.initialize) {
+            window.Lingojs.initialize({
+              projectKey: 'Your project key',
+              targetLanguage: 'de',
+              baseLanguage: 'en',
+              rememberLanguage: true,
+              showWidget: true,
+            });
+          }
+        }}
+      />
+```
 
-* **Context-Aware AI Translation**
-  Get high-quality, natural translations based on the context of your content.
+Add this snippet to your HTML file, and LingoJs takes care of the rest.
 
-## 💼 Pricing Plans
+## 📊 Pricing
 
-| Plan       | Price/month | Projects | Languages | Team Members | Monthly Views |
-| ---------- | ----------- | -------- | --------- | ------------ | ------------- |
-| Personal   | €26         | 1        | 3         | -            | 100K          |
-| Start-up   | €60         | 5        | 6         | 2            | 500K          |
-| Enterprise | €120        | 10       | 10        | 9            | 1M            |
+LingoJs offers flexible pricing for all team sizes:
 
-✅ All plans come with a **7-day free trial**, no credit card required.
+| Plan     | Monthly Price | Projects | Languages | Team Members | Monthly Views |
+| -------- | ------------- | -------- | --------- | ------------ | ------------- |
+| Personal | €26           | 1        | 3         | 1            | 100,000       |
+| Start-up | €60           | 5        | 6         | 3            | 500,000       |
+| Business | €120          | 10       | 10        | 10           | 1,000,000     |
 
-## 🌐 Why Choose LingoJs?
-
-LingoJs is built for modern development workflows, offering seamless localization out of the box. Whether you're a solo developer or part of a large team, LingoJs scales with you—bringing professional-grade multilingual capabilities to your site in minutes.
+All plans include a **7-day free trial**—no credit card required.
 
 ## 🔗 Useful Links
 
-* 🌍 Website: [https://lingojs.com](https://lingojs.com)
-* 📖 Documentation: [https://lingojs.com/en/documentation](https://lingojs.com/en/documentation)
-* 📬 Contact: [https://lingojs.com/en/contact](https://lingojs.com/en/contact)
+* 🌍 [Official Website](https://lingojs.com)
+* 📘 [Documentation](https://lingojs.gitbook.io/lingojs-docs)
+* 📩 [Contact Us](https://lingojs.com/en/contact)
+
+---
+
+> **LingoJs** helps you localize your website the right way—without overcomplicating things.
