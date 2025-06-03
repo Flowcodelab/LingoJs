@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://vetrx3zkmavopskp.public.blob.vercel-storage.com/lingojs-a5GTXEzkvIysXRWV5lkCbNstI0MoL9.png" alt="Logo" width="200"/>
 </p>
+
 # 🌐 LingoJs – Effortless Multilingual Support for Websites
 
 **LingoJs** is a developer-first translation management platform that makes it easy to add multilingual support to any website. With just one script tag, you can manage, translate, and deploy language versions of your site—without complex infrastructure or external translation services.
