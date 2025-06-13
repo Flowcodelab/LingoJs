@@ -49,11 +49,11 @@ Add this snippet to your HTML file, and LingoJs takes care of the rest.
 
 LingoJs offers flexible pricing for all team sizes:
 
-| Plan     | Monthly Price | Projects | Languages | Team Members | Monthly Views |
-| -------- | ------------- | -------- | --------- | ------------ | ------------- |
-| Personal | €26           | 1        | 3         | 1            | 100,000       |
-| Start-up | €60           | 5        | 6         | 3            | 500,000       |
-| Business | €120          | 10       | 10        | 10           | 1,000,000     |
+| Plan     | Monthly Price (EUR) | (USD) | (GBP) | Projects | Languages | Team Members | Monthly Views |
+| -------- | ------------------- | ----- | ----- | -------- | --------- | ------------ | ------------- |
+| Personal |                €26  | $29   | £22   | 1        | 3         | 1            | 100,000       |
+| Start-up |                €60  | $69   | £51   | 5        | 6         | 3            | 500,000       |
+| Business |               €120  | $138  | £102   | 10       | 10        | 10           | 1,000,000     |
 
 All plans include a **7-day free trial**—no credit card required.
 
