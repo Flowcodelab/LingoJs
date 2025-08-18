@@ -28,7 +28,7 @@ No need to host multiple versions of your site or set up a complex i18n system.
 
 ```html
 <Script
-        src="[https://cdn.jsdelivr.net/gh/Flowcodelab/LingoJs@main/lingo-snippet.obf.js](https://cdn.jsdelivr.net/gh/Flowcodelab/LingoJs@main/lingo-snippet.obf.js)"
+        src="https://cdn.jsdelivr.net/gh/Flowcodelab/LingoJs@main/lingo-snippet.obf.js"
         onLoad={() => {
           if (window.lingojs && window.lingojs.initialize) {
             window.lingojs.initialize({
