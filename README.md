@@ -30,8 +30,8 @@ No need to host multiple versions of your site or set up a complex i18n system.
 <Script
         src="[https://api.lingojs.com/static/js/translation-snippet.js](https://cdn.jsdelivr.net/gh/Flowcodelab/LingoJs/lingo-snippet.obf.js)"
         onLoad={() => {
-          if (window.Lingojs && window.Lingojs.initialize) {
-            window.Lingojs.initialize({
+          if (window.lingojs && window.lingojs.initialize) {
+            window.lingojs.initialize({
               projectKey: 'Your project key',
               targetLanguage: 'de',
               baseLanguage: 'en',
@@ -49,11 +49,15 @@ Add this snippet to your HTML file, and LingoJs takes care of the rest.
 
 LingoJs offers flexible pricing for all team sizes:
 
-| Plan     | Monthly Price (EUR) | (USD) | (GBP) | Projects | Languages | Team Members | Monthly Views |
-| -------- | ------------------- | ----- | ----- | -------- | --------- | ------------ | ------------- |
-| Personal |                €26  | $29   | £22   | 1        | 3         | 1            | 100,000       |
-| Start-up |                €60  | $69   | £51   | 5        | 6         | 3            | 500,000       |
-| Business |               €120  | $138  | £102   | 10       | 10        | 10           | 1,000,000     |
+| Plan            | EUR /mo | USD /mo | GBP /mo | Projects | Languages | Team Members | Monthly Views |
+| --------------- | ------- | ------- | ------- | -------- | --------- | ------------ | ------------- |
+| **Freemium**    | €0      | \$0     | £0      | 1        | 3         | 1            | 150           |
+| **Personal**    | €19     | \$22    | £16     | 1        | 3         | 1            | 100,000       |
+| **Pro**         | €49     | \$56    | £42     | 3        | 4         | 3            | 200,000       |
+| **Growth**      | €89     | \$102   | £76     | 5        | 8         | 5            | 500,000       |
+| **Business**    | €149    | \$171   | £127    | 10       | 15        | 10           | 1,000,000     |
+| **Custom Plan** | Contact | Contact | Contact | ∞        | ∞         | ∞            | ∞             |
+
 
 All plans include a **7-day free trial**—no credit card required.
 
